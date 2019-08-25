@@ -11,7 +11,7 @@
     <table>
         <tr>
             <td><form:label path="username">Username</form:label></td>
-            <td><form:input path="username"/></td>
+            <td><form:input path="username" readonly="${update}"/></td>
         </tr>
         <tr>
             <td><form:label path="firstName">First name</form:label></td>
